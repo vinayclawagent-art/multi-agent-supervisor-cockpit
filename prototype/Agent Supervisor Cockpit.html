@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Multi-Agent Supervisor Cockpit</title>
+<style>
+:root{--bg:#0b1020;--panel:#121a2f;--ink:#edf4ff;--muted:#9fb0cc;--accent:#7c5cff;--ok:#26d07c;--warn:#ffbf45;--line:#24304f}*{box-sizing:border-box}body{margin:0;background:linear-gradient(135deg,#0b1020,#17122a);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui;padding:24px}main{max-width:1120px;margin:auto}.hero{display:grid;gap:14px;margin-bottom:18px}h1{font-size:clamp(28px,5vw,54px);line-height:.95;margin:0}p{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}.card{background:rgba(18,26,47,.88);border:1px solid var(--line);border-radius:20px;padding:18px;box-shadow:0 20px 50px rgba(0,0,0,.25)}.pill{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:6px 10px;color:#cbd7ff;font-size:12px}label{display:block;color:#cbd7ff;font-size:13px;margin:10px 0 5px}textarea,input,select{width:100%;background:#091024;color:var(--ink);border:1px solid #304061;border-radius:12px;padding:10px}button{background:var(--accent);color:white;border:0;border-radius:12px;padding:11px 14px;font-weight:700;cursor:pointer}pre{white-space:pre-wrap;background:#050814;border:1px solid var(--line);border-radius:14px;padding:14px;color:#dbe7ff}.status{height:10px;background:#26314e;border-radius:99px;overflow:hidden}.bar{height:100%;background:linear-gradient(90deg,var(--ok),var(--warn));width:66%}</style></head>
+<body><main><section class="hero"><span class="pill">X Artifact Factory • template-ready, not validated</span><h1>Multi-Agent Supervisor Cockpit</h1><p>A multi-agent dashboard is a concrete UX primitive for supervising many coding/research agents without terminal sprawl.</p></section>
+<section class="grid"><div class="card"><h2>1. Define the job</h2><label>Target user</label><input id="user" value="operators supervising several coding, research, or ops agents"><label>Pain</label><textarea id="pain">parallel agents create too many terminals, unclear blockers, and scattered permission prompts</textarea></div>
+<div class="card"><h2>2. Score the run</h2><label>Completeness</label><select id="complete"><option>passes core task</option><option>partial</option><option>blocked</option></select><label>Evidence links</label><textarea id="evidence" placeholder="logs, screenshots, repo diff, source links"></textarea><div class="status"><div class="bar"></div></div></div>
+<div class="card"><h2>3. Decision</h2><label>Gate</label><select id="gate"><option>pilot next</option><option>iterate</option><option>promote</option><option>hold</option></select><label>Next patch</label><textarea id="patch" placeholder="What should README/prototype/skill claim next?"></textarea><button onclick="copyOut()">Copy markdown handoff</button></div></section>
+<section class="card" style="margin-top:14px"><h2>Markdown handoff</h2><pre id="out">Fill the fields, then copy a handoff.</pre></section></main><script>
+function copyOut(){const v=`## Multi-Agent Supervisor Cockpit Trial Handoff
+
+User: ${user.value}
+
+Pain: ${pain.value}
+
+Result: ${complete.value}
+
+Evidence:
+${evidence.value}
+
+Decision: ${gate.value}
+
+Next patch:
+${patch.value}
+`;out.textContent=v;navigator.clipboard&&navigator.clipboard.writeText(v)}
+</script></body></html>
