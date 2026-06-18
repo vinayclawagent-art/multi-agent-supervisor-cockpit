@@ -6,7 +6,7 @@ package: "[[Multi-Agent Supervisor Cockpit]]"
 github_repo: "https://github.com/vinayclawagent-art/multi-agent-supervisor-cockpit"
 cadence: nightly
 last_improved: 2026-06-18
-next_focus: "Run the first real trial with [[Multi-Agent Supervisor Cockpit/Agent Supervisor Cockpit]], fill [[Multi-Agent Supervisor Cockpit/Trial Evidence Index]], then complete [[Multi-Agent Supervisor Cockpit/Post-Trial Promotion Decision Card]] before patching README/prototype/skill claims."
+next_focus: "Run the first real trial with [[Multi-Agent Supervisor Cockpit/Agent Supervisor Cockpit]], fill [[Multi-Agent Supervisor Cockpit/Trial Evidence Index]], complete [[Multi-Agent Supervisor Cockpit/Post-Trial Promotion Decision Card]], then use [[Multi-Agent Supervisor Cockpit/Post-Trial Debrief Template]] to patch README/prototype/skill claims."
 tags: [improvement-loop, x-artifact-factory]
 ---
 
@@ -17,10 +17,10 @@ Package: [[Multi-Agent Supervisor Cockpit]]
 Prototype: [[Multi-Agent Supervisor Cockpit/Agent Supervisor Cockpit]]
 
 ## Current state
-Template-ready, not validated. The package, prototype, infographic, skill draft, GitHub repo mirror, trial evidence index, and promotion decision card exist.
+Template-ready, not validated. The package, prototype, infographic, skill draft, GitHub repo mirror, trial evidence index, promotion decision card, and post-trial debrief template exist.
 
 ## Next focus
-Run one real trial using [[Multi-Agent Supervisor Cockpit/Agent Supervisor Cockpit]], fill [[Multi-Agent Supervisor Cockpit/Trial Evidence Index]] with exact proof links, then complete [[Multi-Agent Supervisor Cockpit/Post-Trial Promotion Decision Card]] before patching claims.
+Run one real trial using [[Multi-Agent Supervisor Cockpit/Agent Supervisor Cockpit]], fill [[Multi-Agent Supervisor Cockpit/Trial Evidence Index]] with exact proof links, complete [[Multi-Agent Supervisor Cockpit/Post-Trial Promotion Decision Card]], then use [[Multi-Agent Supervisor Cockpit/Post-Trial Debrief Template]] to patch only evidence-backed claims.
 
 ## Evidence needed
 - Real input/example.
@@ -30,3 +30,4 @@ Run one real trial using [[Multi-Agent Supervisor Cockpit/Agent Supervisor Cockp
 
 ## Change log
 - 2026-06-18: Created loop, trial artifact, evidence index, and promotion gate; prepared, not validated.
+- 2026-06-18: Added Post-Trial Debrief Template as the evidence-to-patch gate; prepared, not validated.

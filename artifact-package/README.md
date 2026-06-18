@@ -28,6 +28,7 @@ A multi-agent dashboard is a concrete UX primitive for supervising many coding/r
 - Improvement loop: [[Multi-Agent Supervisor Cockpit Loop]]
 - Evidence index: [[Multi-Agent Supervisor Cockpit/Trial Evidence Index]]
 - Promotion gate: [[Multi-Agent Supervisor Cockpit/Post-Trial Promotion Decision Card]]
+- Debrief gate: [[Multi-Agent Supervisor Cockpit/Post-Trial Debrief Template]]
 
 ## Prototype brief
 A clickable, dependency-free cockpit mockup for triaging agents, blockers, permission prompts, and handoffs.
@@ -45,10 +46,12 @@ https://github.com/vinayclawagent-art/multi-agent-supervisor-cockpit
 - [ ] Run one real VinClawLabs task through the prototype.
 - [ ] Fill [[Multi-Agent Supervisor Cockpit/Trial Evidence Index]] with exact proof links.
 - [ ] Complete [[Multi-Agent Supervisor Cockpit/Post-Trial Promotion Decision Card]] after evidence exists.
+- [ ] Fill [[Multi-Agent Supervisor Cockpit/Post-Trial Debrief Template]] to convert evidence into exact README/prototype/skill patches.
 - [ ] Patch README/prototype/skill claims only with observed pitfalls.
 
 ## Change log
 - 2026-06-18: Created package, prototype, infographic, skill draft, loop, and GitHub repo mirror. Template-ready, not validated.
+- 2026-06-18: Added Post-Trial Debrief Template so future trial evidence can become precise claim patches; evidence still pending.
 
 ## Original source
 > we tackled managing N agents at the same time with a new UX here built from the ground up, feedback most welcome!
