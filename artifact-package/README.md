@@ -29,6 +29,7 @@ A multi-agent dashboard is a concrete UX primitive for supervising many coding/r
 - Evidence index: [[Multi-Agent Supervisor Cockpit/Trial Evidence Index]]
 - Promotion gate: [[Multi-Agent Supervisor Cockpit/Post-Trial Promotion Decision Card]]
 - Debrief gate: [[Multi-Agent Supervisor Cockpit/Post-Trial Debrief Template]]
+- Operator handoff: [[Multi-Agent Supervisor Cockpit/Trial Operator Handoff Checklist]]
 
 ## Prototype brief
 A clickable, dependency-free cockpit mockup for triaging agents, blockers, permission prompts, and handoffs.
@@ -46,6 +47,7 @@ https://github.com/vinayclawagent-art/multi-agent-supervisor-cockpit
 - [ ] Run one real VinClawLabs task through the prototype.
 - [ ] Fill [[Multi-Agent Supervisor Cockpit/Trial Evidence Index]] with exact proof links.
 - [ ] Complete [[Multi-Agent Supervisor Cockpit/Post-Trial Promotion Decision Card]] after evidence exists.
+- [ ] Use [[Multi-Agent Supervisor Cockpit/Trial Operator Handoff Checklist]] to sequence the next real trial without losing proof links.
 - [ ] Fill [[Multi-Agent Supervisor Cockpit/Post-Trial Debrief Template]] to convert evidence into exact README/prototype/skill patches.
 - [ ] Patch README/prototype/skill claims only with observed pitfalls.
 
@@ -61,3 +63,4 @@ https://github.com/vinayclawagent-art/multi-agent-supervisor-cockpit
 > Instead of splitting terminal windows N different ways, your primary window can now manage as many agents as you need while giving you the flexibility of going deeper or broader with rich mouse and keyboard interactions.
 >
 > Quoted post: Manage multiple agents at once in the Agent Dashboard. See what each is doing, reply to the ones that need you, and dispatch new tasks. Try /dashboard in Grok Build.
+- 2026-06-18: Added Trial Operator Handoff Checklist to sequence the next real trial across packet, evidence index, promotion card, and debrief gate; evidence still pending.
