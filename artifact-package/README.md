@@ -54,6 +54,7 @@ https://github.com/vinayclawagent-art/multi-agent-supervisor-cockpit
 ## Change log
 - 2026-06-18: Created package, prototype, infographic, skill draft, loop, and GitHub repo mirror. Template-ready, not validated.
 - 2026-06-18: Added Post-Trial Debrief Template so future trial evidence can become precise claim patches; evidence still pending.
+- 2026-06-18: Added Trial Operator Handoff Checklist to sequence the next real trial across packet, evidence index, promotion card, and debrief gate; evidence still pending.
 
 ## Original source
 > we tackled managing N agents at the same time with a new UX here built from the ground up, feedback most welcome!
@@ -63,4 +64,3 @@ https://github.com/vinayclawagent-art/multi-agent-supervisor-cockpit
 > Instead of splitting terminal windows N different ways, your primary window can now manage as many agents as you need while giving you the flexibility of going deeper or broader with rich mouse and keyboard interactions.
 >
 > Quoted post: Manage multiple agents at once in the Agent Dashboard. See what each is doing, reply to the ones that need you, and dispatch new tasks. Try /dashboard in Grok Build.
-- 2026-06-18: Added Trial Operator Handoff Checklist to sequence the next real trial across packet, evidence index, promotion card, and debrief gate; evidence still pending.

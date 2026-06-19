@@ -17,7 +17,7 @@ Package: [[Multi-Agent Supervisor Cockpit]]
 Prototype: [[Multi-Agent Supervisor Cockpit/Agent Supervisor Cockpit]]
 
 ## Current state
-Template-ready, not validated. The package, prototype, infographic, skill draft, GitHub repo mirror, trial evidence index, promotion decision card, and post-trial debrief template, and trial operator handoff checklist exist.
+Template-ready, not validated. The package, prototype, infographic, skill draft, GitHub repo mirror, trial evidence index, promotion decision card, post-trial debrief template, and trial operator handoff checklist exist.
 
 ## Next focus
 Use [[Multi-Agent Supervisor Cockpit/Trial Operator Handoff Checklist]] to run one real trial with [[Multi-Agent Supervisor Cockpit/Agent Supervisor Cockpit]], fill [[Multi-Agent Supervisor Cockpit/Trial Evidence Index]] with exact proof links, complete [[Multi-Agent Supervisor Cockpit/Post-Trial Promotion Decision Card]], then use [[Multi-Agent Supervisor Cockpit/Post-Trial Debrief Template]] to patch only evidence-backed claims.
